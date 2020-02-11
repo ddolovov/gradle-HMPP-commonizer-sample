@@ -14,6 +14,12 @@ kotlin {
         }
     }
 
+    watchos {
+        binaries {
+            executable()
+        }
+    }
+
     sourceSets {
         val commonMain by getting {
             dependencies {
