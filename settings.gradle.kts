@@ -8,7 +8,7 @@ pluginManagement {
     }
 
     repositories {
-        maven("https://buildserver.labs.intellij.net/guestAuth/app/rest/builds/buildType:(id:Kotlin_KotlinDev_Aggregate),number:1.4.0-dev-2481,branch:(default:any)/artifacts/content/maven/")
+        maven("https://buildserver.labs.intellij.net/guestAuth/app/rest/builds/buildType:(id:Kotlin_KotlinDev_Aggregate),number:1.4.0-dev-3218,branch:(default:any)/artifacts/content/maven/")
         gradlePluginPortal()
     }
 }
