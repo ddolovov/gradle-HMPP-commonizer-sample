@@ -1,9 +1,9 @@
 plugins {
-    kotlin("multiplatform") version "1.4.0-dev-3804"
+    kotlin("multiplatform") version "1.4.0-dev-4028"
 }
 
 repositories {
-    maven("https://buildserver.labs.intellij.net/guestAuth/app/rest/builds/id:66293511/artifacts/content/maven")
+    maven("https://buildserver.labs.intellij.net/guestAuth/app/rest/builds/buildType:(id:Kotlin_KotlinDev_Aggregate),number:1.4.0-dev-4028,branch:default:any/artifacts/content/maven")
     mavenCentral()
 }
 
